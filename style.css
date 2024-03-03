@@ -1,3 +1,18 @@
+body {
+    text-align: center;
+}
+
 ul {
     list-style: none;
+    padding: 0;
+    /*text-align: justify;*/
+}
+
+li {
+    padding-top: 30px;
+    /*text-align: justify;*/
+}
+
+p {
+    margin-top: 5px;
 }
