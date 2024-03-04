@@ -2,6 +2,11 @@ body {
     text-align: center;
 }
 
+header {
+    font-weight: bold;
+    font-size: x-large;
+}
+
 ul {
     list-style: none;
     padding: 0;
