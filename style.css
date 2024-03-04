@@ -3,8 +3,12 @@ body {
 }
 
 header {
+    text-align: center !important;
     font-weight: bold;
     font-size: x-large;
+    position: fixed;
+
+
 }
 
 ul {
