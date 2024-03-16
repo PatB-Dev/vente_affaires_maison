@@ -1,17 +1,11 @@
-body {
-    text-align: center;
-}
-
 header {
-    text-align: center !important;
+    text-align: center;
     font-weight: bold;
     font-size: x-large;
-    position: fixed;
-
-
 }
 
 ul {
+    text-align: center;
     list-style: none;
     padding: 0;
 
