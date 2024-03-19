@@ -12,7 +12,7 @@ ulList.appendChild(li);
 li.appendChild(text);
 text.appendChild(prix1);
 li.appendChild(image1);
-*/
+
 var li = document.createElement('li');
 var text = document.createElement('p');
 var image1 = document.createElement('img');
@@ -38,7 +38,7 @@ ulList.appendChild(li);
 li.appendChild(text);
 text.appendChild(prix1);
 li.appendChild(image1);
-
+*/
 var li = document.createElement('li');
 var text = document.createElement('p');
 var image1 = document.createElement('img');
