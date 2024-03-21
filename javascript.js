@@ -1,44 +1,5 @@
 var ulList = document.getElementById('list');
-/*
-var li = document.createElement('li');
-var text = document.createElement('p');
-var image1 = document.createElement('img');
-var prix1 = document.createElement('b');
-image1.src = "img/canape.jpg";
-image1.style.width = '500px'
-prix1.innerText = '20€'
-text.textContent = "Canapé d'angle 2.2m X 1.5m (une fixation cassée mais tient très bien avec une cale) ";
-ulList.appendChild(li);
-li.appendChild(text);
-text.appendChild(prix1);
-li.appendChild(image1);
 
-var li = document.createElement('li');
-var text = document.createElement('p');
-var image1 = document.createElement('img');
-var prix1 = document.createElement('b');
-image1.src = "img/Tableau.jpg";
-image1.style.width = '300px'
-prix1.innerText = 'à donner'
-text.textContent = "Tableau blanc avec coté noir + 2 dictionnaires ";
-ulList.appendChild(li);
-li.appendChild(text);
-text.appendChild(prix1);
-li.appendChild(image1);
-
-var li = document.createElement('li');
-var text = document.createElement('p');
-var image1 = document.createElement('img');
-var prix1 = document.createElement('b');
-image1.src = "img/bureau.jpg";
-image1.style.width = '400px'
-prix1.innerText = 'à donner'
-text.textContent = "Bureau blanc enfant ";
-ulList.appendChild(li);
-li.appendChild(text);
-text.appendChild(prix1);
-li.appendChild(image1);
-*/
 var li = document.createElement('li');
 var text = document.createElement('p');
 var image1 = document.createElement('img');
