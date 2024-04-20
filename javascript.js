@@ -4,9 +4,35 @@ var li = document.createElement('li');
 var text = document.createElement('p');
 var image1 = document.createElement('img');
 var prix1 = document.createElement('b');
+image1.src = "img/telescope.jpg";
+image1.style.width = '300px'
+prix1.innerText = '(10€)'
+text.textContent = "Telescope + kit ";
+ulList.appendChild(li);
+li.appendChild(text);
+text.appendChild(prix1);
+li.appendChild(image1);
+
+var li = document.createElement('li');
+var text = document.createElement('p');
+var image1 = document.createElement('img');
+var prix1 = document.createElement('b');
+image1.src = "img/oriental.jpg";
+image1.style.width = '300px'
+prix1.innerText = '(Don)'
+text.textContent = "Stockage épices ";
+ulList.appendChild(li);
+li.appendChild(text);
+text.appendChild(prix1);
+li.appendChild(image1);
+
+var li = document.createElement('li');
+var text = document.createElement('p');
+var image1 = document.createElement('img');
+var prix1 = document.createElement('b');
 image1.src = "img/Blender.jpg";
 image1.style.width = '300px'
-prix1.innerText = '15€'
+prix1.innerText = '(Don)'
 text.textContent = "Blender SylverCrest ";
 ulList.appendChild(li);
 li.appendChild(text);
@@ -19,8 +45,8 @@ var image1 = document.createElement('img');
 var prix1 = document.createElement('b');
 image1.src = "img/veloST50.jpg";
 image1.style.width = '600px'
-prix1.innerText = '150€'
-text.textContent = "2 Vélos ST50 (un avec panier sur le guidon) ";
+prix1.innerText = '100€'
+text.textContent = "Vélos ST50 ";
 ulList.appendChild(li);
 li.appendChild(text);
 text.appendChild(prix1);
@@ -32,7 +58,7 @@ var image1 = document.createElement('img');
 var prix1 = document.createElement('b');
 image1.src = "img/veloST100.jpg";
 image1.style.width = '600px'
-prix1.innerText = '180€'
+prix1.innerText = '150€'
 text.textContent = "Vélo ST50 ";
 ulList.appendChild(li);
 li.appendChild(text);
@@ -78,6 +104,7 @@ li.appendChild(text);
 text.appendChild(prix1);
 li.appendChild(image1);
 
+/*
 var li = document.createElement('li');
 var text = document.createElement('p');
 var image1 = document.createElement('img');
@@ -129,3 +156,4 @@ ulList.appendChild(li);
 li.appendChild(text);
 text.appendChild(prix1);
 li.appendChild(image1);
+*/
