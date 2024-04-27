@@ -6,8 +6,8 @@ var image1 = document.createElement('img');
 var prix1 = document.createElement('b');
 image1.src = "img/telescope.jpg";
 image1.style.width = '500px'
-prix1.innerText = '(10€)'
-text.textContent = "Telescope + kit ";
+prix1.innerText = ''
+text.textContent = "Donne Telescope + kit ";
 ulList.appendChild(li);
 li.appendChild(text);
 text.appendChild(prix1);
